@@ -48,4 +48,4 @@ to generate maps to visualize your neighborhoods and how they cluster together.
 Once you are happy with your analysis, submit a link to the new Notebook on your Github repository. (3 marks)
 
 
-This assignment source: https://www.coursera.org/learn/applied-data-science-capstone/peer/I1bDq/segmenting-and-clustering-neighborhoods-in-toronto/review/yuAjn2DCEeqlGQq42Khu4w
+
