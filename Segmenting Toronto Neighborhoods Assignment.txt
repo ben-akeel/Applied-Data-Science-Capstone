@@ -15,9 +15,9 @@ In the last cell of your notebook, use the .shape method to print the number of 
 
 Note There are different website scraping libraries and packages in Python. For scraping the above table, you can simply use pandas to read the table into a pandas dataframe.
 
-Another way, which would help to learn for more complicated cases of web scraping is using the BeautifulSoup package. Here is the package's main documentation page httpbeautiful-soup-4.readthedocs.ioenlatest
+Another way, which would help to learn for more complicated cases of web scraping is using the BeautifulSoup package. Here is the package's main documentation page http://beautiful-soup-4.readthedocs.ioenlatest
 
-The package is so popular that there is a plethora of tutorials and examples on how to use it. Here is a very good Youtube video on how to use the BeautifulSoup package httpswww.youtube.comwatchv=ng2o98k983k
+The package is so popular that there is a plethora of tutorials and examples on how to use it. Here is a very good Youtube video on how to use the BeautifulSoup package https://www.youtube.comwatchv=ng2o98k983k
 
 Use pandas, or the BeautifulSoup package, or any other way you are comfortable with to transform the data in the table on the Wikipedia page into the above pandas dataframe.
 
@@ -25,12 +25,12 @@ BI Link
 
 Now that you have built a dataframe of the postal code of each neighborhood along with the borough name and neighborhood name, in order to utilize the Foursquare location data, we need to get the latitude and the longitude coordinates of each neighborhood.
 
-In an older version of this course, we were leveraging the Google Maps Geocoding API to get the latitude and the longitude coordinates of each neighborhood. However, recently Google started charging for their API httpgeoawesomeness.comdevelopers-up-in-arms-over-google-maps-api-insane-price-hike, so we will use the Geocoder Python package instead httpsgeocoder.readthedocs.ioindex.html.
+In an older version of this course, we were leveraging the Google Maps Geocoding API to get the latitude and the longitude coordinates of each neighborhood. However, recently Google started charging for their API http://geoawesomeness.comdevelopers-up-in-arms-over-google-maps-api-insane-price-hike, so we will use the Geocoder Python package instead https://geocoder.readthedocs.ioindex.html.
 
 The problem with this Package is you have to be persistent sometimes in order to get the geographical coordinates of a given postal code. So you can make a call to get the latitude and longitude coordinates of a given postal code and the result would be None, and then make the call again and you would get the coordinates. So, in order to make sure that you get the coordinates for all of our neighborhoods, you can run a while loop for each postal code. Taking postal code M5G as an example, your code would look something like this
 
 
-Given that this package can be very unreliable, in case you are not able to get the geographical coordinates of the neighborhoods using the Geocoder package, here is a link to a csv file that has the geographical coordinates of each postal code httpcocl.usGeospatial_data
+Given that this package can be very unreliable, in case you are not able to get the geographical coordinates of the neighborhoods using the Geocoder package, here is a link to a csv file that has the geographical coordinates of each postal code http://cocl.usGeospatial_data
 
 Use the Geocoder package or the csv file to create the following dataframe
 
@@ -48,3 +48,4 @@ to generate maps to visualize your neighborhoods and how they cluster together.
 Once you are happy with your analysis, submit a link to the new Notebook on your Github repository. (3 marks)
 
 
+This assignment source: https://www.coursera.org/learn/applied-data-science-capstone/peer/I1bDq/segmenting-and-clustering-neighborhoods-in-toronto/review/yuAjn2DCEeqlGQq42Khu4w
